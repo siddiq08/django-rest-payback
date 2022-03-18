@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_github_actions_aws.urls'
+ROOT_URLCONF = 'django_github_actions_aws1.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_github_actions_aws.wsgi.application'
+WSGI_APPLICATION = 'django_github_actions_aws1.wsgi.application'
 
 
 # Database
